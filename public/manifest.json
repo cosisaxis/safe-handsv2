@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Website Monitor",
+    "version": "1.0.0",
+    "description": "Chrome extension to monitor website visits",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["tabs"],
+    "browser_action": {
+      "default_popup": "index.html"
+    }
+  }
+  
