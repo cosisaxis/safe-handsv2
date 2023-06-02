@@ -22,7 +22,7 @@ function sendNotification() {
   const client = twilio(accountSid, authToken);
 
   const phoneNumber = "8768672788";
-  const message = "Your accountability partner has visited a restricted site";
+  const message = "Red alert";
 
   client.messages
     .create({
