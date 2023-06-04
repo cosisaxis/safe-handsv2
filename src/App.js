@@ -1,11 +1,13 @@
-import './App.css';
+import React from "react";
+import Popup from "./components/Popup";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <Popup />
     </div>
   );
-}
+};
 
 export default App;
+
