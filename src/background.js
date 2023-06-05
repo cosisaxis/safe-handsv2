@@ -27,7 +27,7 @@ function sendNotification() {
   client.messages
     .create({
       body: message,
-      from: "YOUR_TWILIO_PHONE_NUMBER",
+      from: "+13612667574",
       to: phoneNumber
     })
     .then(message => console.log("Notification sent!"))
